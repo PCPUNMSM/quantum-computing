@@ -16,6 +16,8 @@ ptvsd = "^4.3.2"
 jupyterlab-git = "^0.20.0"
 ipywidgets = "^7.5.1"
 jupyter_nbextensions_configurator = "^0.4.1"
+isort = "^5.1.4"
+black = "^19.10b0"
 
 [tool.poetry.dev-dependencies]
 
