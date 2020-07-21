@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "qiskit-global-summer-school-2020"
+version = "0.1.0"
+description = ""
+authors = ["zodiacfireworks <martin.vuelta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+qiskit = {extras = ["visualization"], version = "^0.19.6"}
+jupyterlab = "^2.2.0"
+jupyterlab_code_formatter = "^1.3.5"
+nbdime = "^2.0.0"
+xeus-python = "^0.7.1"
+ptvsd = "^4.3.2"
+jupyterlab-git = "^0.20.0"
+ipywidgets = "^7.5.1"
+jupyter_nbextensions_configurator = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
